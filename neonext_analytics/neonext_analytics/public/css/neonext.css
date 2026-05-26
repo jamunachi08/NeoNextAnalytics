@@ -1,0 +1,91 @@
+/* NeoNext Analytics — desk styling.
+   Uses ERPNext CSS variables so it follows light/dark themes. */
+
+.neonext-body {
+	padding: 12px 0;
+}
+
+/* --- KPI cards --- */
+.neonext-kpi {
+	background: var(--card-bg, #fff);
+	border: 1px solid var(--border-color, #e2e2e2);
+	border-radius: var(--border-radius-md, 8px);
+	padding: 14px 16px;
+	margin-bottom: 12px;
+}
+
+.neonext-kpi-label {
+	font-size: 11px;
+	color: var(--text-muted, #8d99a6);
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.neonext-kpi-value {
+	font-size: 22px;
+	font-weight: 600;
+	color: var(--text-color, #1f272e);
+	margin-top: 4px;
+}
+
+/* --- Generic card --- */
+.neonext-card {
+	background: var(--card-bg, #fff);
+	border: 1px solid var(--border-color, #e2e2e2);
+	border-radius: var(--border-radius-md, 8px);
+	padding: 14px 16px;
+}
+
+.neonext-charts .neonext-card {
+	margin-bottom: 15px;
+}
+
+.neonext-invoices-card,
+.neonext-results-card {
+	margin-top: 3px;
+}
+
+.neonext-card-title {
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--text-color, #1f272e);
+	margin-bottom: 10px;
+}
+
+/* --- Table --- */
+.neonext-table {
+	margin-bottom: 0;
+}
+
+/* --- Explorer field picker --- */
+.neonext-picker-label {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	color: var(--text-muted, #8d99a6);
+}
+
+.neonext-field-list {
+	margin-top: 4px;
+	max-height: 160px;
+	overflow-y: auto;
+}
+
+.neonext-field-option {
+	display: inline-block;
+	margin: 2px 12px 2px 0;
+	font-weight: normal;
+}
+
+/* --- States --- */
+.neonext-loading,
+.neonext-muted,
+.neonext-empty {
+	color: var(--text-muted, #8d99a6);
+	padding: 8px 2px;
+}
+
+.neonext-error {
+	color: var(--red-500, #e24c4c);
+	padding: 8px 2px;
+}
