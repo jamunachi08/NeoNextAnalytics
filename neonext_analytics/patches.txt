@@ -1,0 +1,2 @@
+# Database migration patches go here, one dotted path per line.
+# Empty for a fresh app.

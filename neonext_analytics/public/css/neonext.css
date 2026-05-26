@@ -1,0 +1,42 @@
+/* NeoNext Analytics — desk page styling.
+   Uses ERPNext CSS variables so it adapts to light/dark themes. */
+
+.neonext-body {
+	padding: 10px 0;
+}
+
+.neonext-kpi {
+	background: var(--card-bg, #fff);
+	border: 1px solid var(--border-color, #e2e2e2);
+	border-radius: var(--border-radius-md, 8px);
+	padding: 14px 16px;
+	margin-bottom: 12px;
+}
+
+.neonext-kpi-label {
+	font-size: 12px;
+	color: var(--text-muted, #8d99a6);
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+}
+
+.neonext-kpi-value {
+	font-size: 22px;
+	font-weight: 600;
+	color: var(--text-color, #1f272e);
+	margin-top: 4px;
+}
+
+.neonext-card {
+	background: var(--card-bg, #fff);
+	border: 1px solid var(--border-color, #e2e2e2);
+	border-radius: var(--border-radius-md, 8px);
+	padding: 14px 16px;
+}
+
+.neonext-card-title {
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--text-color, #1f272e);
+	margin-bottom: 8px;
+}
